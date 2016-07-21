@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="WeeWx Plugin" lan="LAN_PLUGIN__WEEWX_NAME" version="2.0" date="2016-07-18" compatibility="2.0" installRequired="true" >
+	<author name="G4HDU" url="http://keal.me.uk" />
+	<summary>Display WeeWX weather information</summary>
+	<description lan="LAN_PLUGIN__WEEWX_DIZ">Display WeeWX weather information</description>
+	<category>content</category>
+	<keywords>
+		<word>weewx</word>
+		<word>weather</word>
+		<word>climate</word>
+	</keywords> 
+	<adminLinks>
+		<link url='admin_config.php' description='Configure WeeWx Plugin' icon='images/weewx_32.png' iconSmall='images/weewx_16.png' primary='true' >LAN_CONGIGURE</link>
+		<link url="admin_config.php?mode=options" description="Configure WeeWx Prefs" icon="manage" >WeeWx Prefs</link>
+	</adminLinks>
+	<siteLinks>
+		<link url="{e_PLUGIN}_weewx/_weewx.php" perm='everyone' sef='index'>LAN_PLUGIN__WEEWX_LINK</link>
+	</siteLinks>
+	<pluginPrefs>
+		<pref name="weewx_pref_1">1</pref>
+		<pref name="weewx_pref_2">[more...]</pref>
+	</pluginPrefs>
+	<userClasses>
+		<class name="weewx_adminuserclass" description="WeeWx Admins" />		
+	</userClasses>
+	<extendedFields>
+		<field name="custom" type='EUF_TEXTAREA' default='0' active="true" />
+	</extendedFields>		
+</e107Plugin>
