@@ -2,28 +2,31 @@
 <e107Plugin name="WeeWx Plugin" lan="LAN_PLUGIN__WEEWX_NAME" version="2.0" date="2016-07-18" compatibility="2.0" installRequired="true" >
 	<author name="G4HDU" url="http://keal.me.uk" />
 	<summary>Display WeeWX weather information</summary>
-	<description lan="LAN_PLUGIN__WEEWX_DIZ">Display WeeWX weather information</description>
+	<description lan="LAN_PLUGIN__WEEWX_DIZ">Display WeeWX weather information. Requires WD extension for WeeWX</description>
 	<category>content</category>
 	<keywords>
 		<word>weewx</word>
 		<word>weather</word>
 		<word>climate</word>
+		<word>meteo</word>
+		<word>wunderground</word>
 	</keywords> 
 	<adminLinks>
 		<link url='admin_config.php' description='Configure WeeWx Plugin' icon='images/weewx_32.png' iconSmall='images/weewx_16.png' primary='true' >LAN_CONGIGURE</link>
 		<link url="admin_config.php?mode=options" description="Configure WeeWx Prefs" icon="manage" >WeeWx Prefs</link>
 	</adminLinks>
 	<siteLinks>
-		<link url="{e_PLUGIN}_weewx/_weewx.php" perm='everyone' sef='index'>LAN_PLUGIN__WEEWX_LINK</link>
+		<link url="{e_PLUGIN}weewx/data.php" perm='everyone' sef='data'>LAN_PLUGIN_WEEWX_DATA</link>
+		<link url="{e_PLUGIN}weewx/charts.php" perm='everyone' sef='charts'>LAN_PLUGIN_WEEWX_CHARTS</link>
+		<link url="{e_PLUGIN}weewx/records.php" perm='everyone' sef='records'>LAN_PLUGIN_WEEWX_RECORDS</link>
 	</siteLinks>
 	<pluginPrefs>
-		<pref name="weewx_pref_1">1</pref>
-		<pref name="weewx_pref_2">[more...]</pref>
+		<pref name="weewx_apikey">Your key</pref>
+		<pref name="weewx_location">Maghull</pref>
+		<pref name="weewx_fupdate">30</pref>
+		<pref name="weewx_fLatitude">53.515227</pref>
+		<pref name="weewx_fLongitude">-2.936043</pref>
+		<pref name="weewx_flocalStation">IMAGHULL3</pref>
 	</pluginPrefs>
-	<userClasses>
-		<class name="weewx_adminuserclass" description="WeeWx Admins" />		
-	</userClasses>
-	<extendedFields>
-		<field name="custom" type='EUF_TEXTAREA' default='0' active="true" />
-	</extendedFields>		
+	
 </e107Plugin>

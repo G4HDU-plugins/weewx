@@ -1,0 +1,39 @@
+.climSum{
+    
+    font-family:Lucida Console, Monaco, monospace;
+    font-size: 0.75em;
+}
+.cliDown{
+    
+    float: right;
+    display:block;
+    color: blue;
+    font-size: 32px;
+}
+.readingDateTime {
+width:100%;
+margin: 0 auto;
+text-align:center;
+}
+.weewxForecastLeft{
+    float:left;
+    height:40px;
+    font-size:1.3em;
+    font-weight:bold;
+    padding-top:9px;
+}
+.weewxForecastFooter{
+      font-size:0.85em;
+    
+}
+.weeBullet{
+     color:blue;
+}
+.weewxCurrentHead{
+    text-align: center;
+    margin: 0 auto;
+    width:100%;
+    color: #317eac;
+}
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}

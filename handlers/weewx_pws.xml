@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maintag>
+<!--MISC-->
+<misc><misc data="station_location">G4HDU Maghull WX</misc></misc>
+<!--STATION DATA-->
+<realtime><data realtime="station_date">Thu, 11 Aug 2016</data></realtime>
+<realtime><data realtime="station_time">16:45 BST</data></realtime>
+<realtime><data realtime="sunrise">05:45:16</data></realtime>
+<realtime><data realtime="sunset">20:48:30<!--sunsetTime--></data></realtime>
+<realtime><data realtime="moonrise">  <!--moonriseTime--></data></realtime>
+<realtime><data realtime="moonset">  <!--moonsetTime--></data></realtime>
+<!--TEMPERATURE-->
+<realtime><data realtime="temp">15.6<!--outsideTemp--></data></realtime>
+<realtime><data realtime="high_temp">15.6<!--hiOutsideTemp--></data></realtime>
+<realtime><data realtime="low_temp">12.7<!--lowOutsideTemp--></data></realtime>
+<realtime><data realtime="heatindex">15.6<!--outsideHeatIndex--></data></realtime>
+<realtime><data realtime="high_heatindex">15.6<!--hiHeatindex--></data></realtime>
+<!--HUMIDITY-->
+<realtime><data realtime="hum">96<!--outsideHumidity--></data></realtime>
+<realtime><data realtime="high_hum">99<!--hiHumidity--></data></realtime>
+<realtime><data realtime="low_hum">85<!--lowHumidity--></data></realtime>
+<!--WIND-->
+<realtime><data realtime="winddir" misc="imgwinddir">WSW<!--windDirection--></data></realtime>
+<realtime><data realtime="windspeed">10<!--windSpeed--></data></realtime>
+<realtime><data realtime="high_windspeed">52<!--hiWindSpeed--></data></realtime>
+<realtime><data realtime="windchill">15.6<!--windChill--></data></realtime>
+<realtime><data realtime="low_windchill">12.7<!--lowWindchill--></data></realtime>
+<!--DEWPOINT-->
+<realtime><data realtime="dew">15.0<!--outsideDewPt--></data></realtime>
+<realtime><data realtime="high_dew">15.1<!--hiDewpoint--></data></realtime>
+<realtime><data realtime="low_dew">11.6<!--lowDewpoint--></data></realtime>
+<!--BAROMETER-->
+<realtime><data realtime="barometer">1018.2<!--barometer--></data></realtime>
+<realtime><data realtime="changebarometer">0.3<!--hourchangebarom--></data></realtime>
+<realtime><data realtime="high_barometer">1019.5<!--hiBarometer--></data></realtime>
+<realtime><data realtime="low_barometer">1017.2<!--lowBarometer--></data></realtime>
+<!--RAIN-->
+<realtime><data realtime="todaysrain">6.9<!--dailyRain--></data></realtime>
+<realtime><data realtime="rain_rate">0.0<!--rainRate--></data></realtime>
+<realtime><data realtime="high_rain_rate">4.1<!--hiRainRate--></data></realtime>
+<realtime><data realtime="storm_rate">6.9<!--dailyRain--></data></realtime>
+<!--UNITS-->
+<realtime><data units="windunit">km/h<!--windUnit--></data></realtime>
+<realtime><data units="rainunit">mm<!--rainUnit--></data></realtime>
+<realtime><data units="rateunit">mm/hr<!--rateUnit--></data></realtime>
+<realtime><data units="barunit">hPa<!--barUnit--></data></realtime>
+<realtime><data units="tempunit">C<!--tempUnit--></data></realtime>
+<realtime><data units="humunit">%<!--humUnit--></data></realtime>
+</maintag>
